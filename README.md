@@ -69,8 +69,8 @@ Data collected from **2021-2023**.
 
 - `/data/`: Contains raw and processed datasets.
 - `/notebooks/`: Jupyter notebook with code and experiments.
-- `/src/`: Scripts for preprocessing, training, and evaluation.
 - `/models/`: Saved model weights and checkpoints.
+- `/predictions/`: Generated predictions and model outputs for analysis and evaluation.
 - `/presentation/`: Final project presentation in PPT format.
 
 ---
