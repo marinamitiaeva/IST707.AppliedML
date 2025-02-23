@@ -2,6 +2,13 @@
 
 This repository contains the final project for IST 707 Applied Machine Learning course, Syracuse University. Our project aims to forecast pothole development in Syracuse, NY, based on multiple factors such as weather, pavement ratings, and reported maintenance requests.
 
+## Team Members
+
+Marina Mitiaeva, mmitiaev@syr.edu
+Cathryn Lee Shelton, clshelto@syr.edu
+Abhi Chakraborty, abchakra@syr.edu
+Edward Joseph Cogan II, ejcogani@syr.edu
+
 ## Problem Statement
 
 Pothole development occurs due to:
@@ -77,10 +84,12 @@ Data collected from **2021-2023**.
 
 ## Results
 
-Our linear regression model achieved:
+Our analysis compared the Mean Squared Error (MSE) across multiple models, incorporating various feature engineering and transformation techniques. The key takeaways from the results are:
 
-- **MSE (Mean Squared Error):** <value to be updated>
-- <Add any key insights or findings from your results>
+- Baseline models (linear regression on all features) achieved an MSE of 0.1451, while feature engineering improved performance slightly (0.1299).
+- Polynomial transformations combined with different regression techniques (ridge, lasso, elastic net, random forest, gradient boosting, stacking, and voting) led to varying performance improvements, with the best performing models around 0.1189 - 0.1251 MSE.
+- Stacking showed higher MSE (0.1894), indicating potential overfitting or poor generalization.
+- The best model on validation data achieved an MSE of 0.1189, and the final model tested on unseen data reached an MSE of 0.0339, demonstrating strong predictive performance.
 
 ---
 
