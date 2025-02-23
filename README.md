@@ -5,8 +5,11 @@ This repository contains the final project for IST 707 Applied Machine Learning 
 ## Team Members
 
 Marina Mitiaeva, mmitiaev@syr.edu
+
 Cathryn Lee Shelton, clshelto@syr.edu
+
 Abhi Chakraborty, abchakra@syr.edu
+
 Edward Joseph Cogan II, ejcogani@syr.edu
 
 ## Problem Statement
